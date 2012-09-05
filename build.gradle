@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.5
+version = 1.0
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testCompile 'org.jbehave:jbehave-core:3.6.9'
+  testCompile 'junit:junit:4.8.1'
+  testCompile 'de.codecentric:jbehave-junit-runner:1.0.1'
+}
